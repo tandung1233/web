@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html class=" js canvas rgba borderradius boxshadow textshadow opacity cssanimations cssgradients csstransitions gecko win js" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <style>
+        body {
+            background-color: #fff7c9;
+        }
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        caption,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        
+        #header .w-header-area {
+            height: 130px;
+            z-index: 1;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        #webs-header .webs-container,
+        .webs-content-header .webs-container {
+            padding: 0;
+        }
+        
+        .webs-bin {
+            position: relative;
+        }
+        
+        .webs-parent-0::after,
+        .webs-parent-0>.webs-parent::after,
+        .webs-row::after,
+        .webs-col>.webs-bin::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        #header .title-wrap {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .clearfix::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        #header {
+            position: relative;
+            height: 100px;
+        }
+        
+        #wrapper {
+            color: #666666;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        #wrapper {
+            width: 980px;
+            margin: 0px auto;
+        }
+        
+        #bottom {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/bg_footer.png");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        
+        #water_sand {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/footer_tile.jpg");
+            background-repeat: repeat-x;
+            background-position: center bottom;
+        }
+        
+        #centre {
+            position: relative;
+            margin: 0px;
+            background: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/bg_pattern.jpg") no-repeat top center;
+        }
+        
+        #background {
+            margin: 0px;
+            background: #e4f9ff url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/page_bg.jpg") repeat-x top;
+        }
+        
+        body,
+        .webs-text,
+        .w-header-text,
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #666666;
+            font-weight: normal;
+            font-family: "Arial", sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        body {
+            padding-bottom: 70px;
+        }
+        
+        html {
+            height: auto !important;
+        }
+        
+        .w-header-layer {
+            position: absolute;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .logo {
+            top: 26px;
+            width: 246px;
+            left: 65px;
+            height: 78px;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .title {
+            top: 44px;
+            z-index: 20;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-left.title,
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-center.title {
+            left: 352px;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .subtitle {
+            top: 27px;
+            z-index: 21;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-left.subtitle,
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-center.subtitle {
+            left: 672px;
+        }
+        
+        .w-header-text {
+            white-space: nowrap;
+            width: auto;
+        }
+        
+        .w-header-text-container .w-header-subtitle {
+            font-family: "Patrick Hand", cursive;
+        }
+        
+        .w-header-text-container .w-header-title {
+            font-family: "Walter Turncoat", cursive;
+        }
+        
+        .w-header-layer-align-left .w-header-text {
+            text-align: left;
+        }
+        
+        #header .w-header-subtitle {
+            font-size: 20px;
+            color: #2486c6;
+        }
+        
+        #header .w-header-title {
+            font-size: 51px;
+            line-height: 58px;
+            font-weight: bold;
+            color: #ee2375;
+        }
+        
+        .w-header-layer-image .w-header-image {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #menu li {
+            color: #f1f1f1;
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            margin-left: -5px;
+        }
+        
+        #menu ul {
+            background: #f7f7f7;
+        }
+        
+        a {
+            padding: 10px;
+            color: #00b2d9;
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: #fff7c9;
+        }
+        
+        a,
+        a:link,
+        a:visited {
+            color: #008eb0;
+        }
+        
+        body a,
+        .webs-text a,
+        .w-header-text a,
+        input[type=text] a,
+        input[type=email] a,
+        input[type=password] a,
+        textarea a {
+            color: #008eb0;
+        }
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        caption,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        
+        .clearfix::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        #container {
+            background-color: #ffffff;
+            min-height: 542px;
+            padding: 17px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+        
+        #wrapper {
+            color: #666666;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        #wrapper {
+            width: 980px;
+            margin: 0px auto;
+        }
+        
+        #bottom {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/bg_footer.png");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        
+        #water_sand {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/footer_tile.jpg");
+            background-repeat: repeat-x;
+            background-position: center bottom;
+        }
+        
+        #centre {
+            position: relative;
+            margin: 0px;
+            background: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/bg_pattern.jpg") no-repeat top center;
+        }
+        
+        #background {
+            margin: 0px;
+            background: #e4f9ff url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/page_bg.jpg") repeat-x top;
+        }
+        
+        body,
+        .webs-text,
+        .w-header-text,
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #666666;
+            font-weight: normal;
+            font-family: "Arial", sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        body {
+            padding-bottom: 70px;
+        }
+        
+        html {
+            height: auto !important;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        .webs-row {
+            overflow: visible;
+        }
+        
+        .webs-bin {
+            position: relative;
+        }
+        
+        .webs-parent-0::after,
+        .webs-parent-0>.webs-parent::after,
+        .webs-row::after,
+        .webs-col>.webs-bin::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        .webs-row>.webs-col {
+            float: left;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        .webs-text {
+            min-height: 21px;
+        }
+        
+        .webs-text {
+            word-wrap: break-word;
+        }
+        
+        .webs-text p {
+            padding: 0;
+        }
+        
+        .webs-text p {
+            margin: 0 0 0;
+        }
+        
+        .wz-bold {
+            font-weight: 700;
+        }
+        
+        .webs-title {
+            color: #008eb0;
+            font-weight: normal;
+            font-family: "Patrick Hand", cursive;
+            font-size: 24px;
+            line-height: 26px;
+        }
+        
+        .webs-title {
+            line-height: normal;
+        }
+        
+        .webs-title.webs-title-align-left {
+            text-align: left;
+        }
+        
+        .w-font-times {
+            font-family: "Times New Roman", serif !important;
+        }
+        
+        .webs-title .w-text {
+            display: block;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+        
+        .webs-table-container {
+            position: relative;
+        }
+        
+        table {
+            font: inherit;
+            vertical-align: baseline;
+            font-size: 100%;
+        }
+        
+        .webs-table {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border-spacing: 0;
+            border: 1px solid;
+        }
+        
+        .webs-table {
+            border-color: #ff0000;
+        }
+        
+        .webs-table.hideborder {
+            border-style: none !important;
+        }
+        
+        #webs-bin-51bc26200cf2035a0d1babea .webs-table-container .webs-table {
+            border-color: '';
+        }
+        
+        .webs-table>tbody>tr>td,
+        .webs-table>thead>tr>td {
+            min-width: 16px;
+            padding: 8px 6px;
+            border: 0;
+            border-left: 1px solid;
+        }
+        
+        .webs-table tbody>tr>td {
+            border-color: #ff0000;
+        }
+        
+        .webs-table thead>tr>td {
+            background-color: #ff9999;
+            background-color: rgba(255, 0, 0, 0.44999999999999996);
+        }
+        
+        .webs-table.hideborder>tbody>tr>td,
+        .webs-table.hideborder>thead>tr>td {
+            border-left-style: none !important;
+        }
+        
+        .webs-table>tbody>tr>td:first-child,
+        .webs-table>thead>tr>td:first-child {
+            border-left: 0;
+        }
+        
+        .webs-table>tbody>tr.odd>td {
+            background-color: #ebebeb;
+            background-color: rgba(0, 0, 0, 0.07);
+        }
+        
+        .webs-table>tbody>tr.even>td {
+            background-color: #fafafa;
+            background-color: rgba(0, 0, 0, 0.003);
+        }
+        
+        #webs-bin-51bc26200cf2035a0d1babea .webs-table-container .webs-table>tbody>tr>td {
+            border-color: '';
+        }
+        
+        #webs-bin-51bc26200cf2035a0d1babea .webs-table-container .webs-table>tbody>tr.odd>td {
+            background-color: '';
+        }
+        
+        #webs-bin-51bc26200cf2035a0d1babea .webs-table-container .webs-table>tbody>tr.even>td {
+            background-color: '';
+        }
+        
+        .webs-table>thead>tr>td {
+            border-color: transparent;
+            padding: 12px 6px;
+        }
+        
+        #webs-bin-51bc26200cf2035a0d1babea .webs-table-container .webs-table>thead>tr>td {
+            background-color: '';
+        }
+        
+        .webs-table>thead>tr>td .webs-text {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="with-fixed-freebar">
+    <div id="background">
+        <div id="centre">
+            <div id="water_sand">
+                <div id="bottom">
+                    <div id="wrapper">
+                        <header class="clearfix" id="header">
+                            <div class="title-wrap">
+                                <section class="webs-content-header webs-content" id="51ac04700cf290cd858746de" data-webs-locked="true" data-webs-module="header_editor" data-role="webs-header">
+                                    <div class="webs-parent webs-parent-0">
+                                        <div class="webs-parent webs-parent-1 webs-col">
+                                            <div class="webs-bin" id="webs-bin-51ac04700cf290cd858746df">
+                                                <div class="webs-bin-wrap">
+                                                    <div class="webs-container webs-module-header_editor  w-header_editor-default">
+                                                        <div class="w-header-area ">
+                                                            <div class="w-header-layer w-header-layer-image w-header-layer-logo logo">
+                                                                <div class="w-header-layer-container">
+                                                                    <img class="w-header-image w-header-logo" src="https://sweetcandygroup5.webs.com/logo.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title w-header-layer w-header-layer-text w-header-layer-align-left ">
+                                                                <div class="w-header-layer-container">
+                                                                    <h1 class="w-header-text-container">
+                                                                        <div class="w-header-text w-header-title ">
+                                                                            Sweet Candy
+                                                                        </div>
+                                                                    </h1>
+                                                                </div>
+                                                            </div>
+                                                            <div class="subtitle w-header-layer w-header-layer-text w-header-layer-align-left ">
+                                                                <div class="w-header-layer-container">
+                                                                    <h2 class="w-header-text-container">
+                                                                        <div class="w-header-text w-header-subtitle " data-placeholder="Subtitle">
+                                                                            Giảm giá 10% đồ thời trang trẻ em
+                                                                        </div>
+                                                                    </h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </header>
+                        <div id="menu" class="">
+                            <ul>
+                                <li><a href="#">Trang chủ</a></li>
+                                <li><a href="#">Cửa hàng online</a></li>
+                                <li><a href="#">Quy định với khách hàng</a></li>
+                                <li><a href="#">Diễn đàn</a></li>
+                                <li><a href="#">Giới thiệu công ty</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="background">
+        <div id="centre">
+            <div id="water_sand">
+                <div id="bottom">
+                    <div id="wrapper">
+                        <div class="main main-sidebar-none clearfix" id="container">
+                            <!-- main body -->
+                            <div id="body-wrapper">
+                                <section class="webs-content webs-body" id="51bc25020cf2035a0d1bab9c" data-role="webs-body">
+                                    <!-- Begin Tree -->
+                                    <div class="webs-parent webs-parent-0">
+                                        <div class="webs-parent webs-parent-1 webs-col">
+                                            <div class="webs-parent webs-parent-2 webs-row">
+                                                <div class="webs-parent webs-parent-3 webs-col" style="width: 255px;">
+
+                                                    <div class="webs-bin" id="webs-bin-51bc26200cf2035a0d1babea">
+                                                        <div class="webs-bin-wrap">
+                                                            <div class="webs-container webs-module-table  w-table-default">
+                                                                <div class="webs-table-wrap">
+                                                                    <div class="webs-table-container">
+                                                                        <table class="webs-table  hideborder">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div class="webs-table-content webs-text">Quy định với khách hàng<br></div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+
+                                                                                <tr class="even">
+
+                                                                                    <td style="width: 100%;">
+                                                                                        <div class="webs-table-content webs-text"> <a id="C6F5F0D4-49AB-4CF1-978B-1E0C832146BC" href="https://sweetcandygroup5.webs.com/quy-dinh-voi-khach-hang">Điều kiện sử dụng</a><br> </div>
+                                                                                    </td>
+
+                                                                                </tr>
+
+                                                                                <tr class="odd">
+
+                                                                                    <td>
+                                                                                        <div class="webs-table-content webs-text"> <a href="https://sweetcandygroup5.webs.com/giao-hang">Chính sách giao hàng</a><br> </div>
+                                                                                    </td>
+
+                                                                                </tr>
+
+                                                                                <tr class="even">
+
+                                                                                    <td>
+                                                                                        <div class="webs-table-content webs-text"> <a href="https://sweetcandygroup5.webs.com/doi-tra-hang">Quy định đổi/trả hàng</a><br> </div>
+                                                                                    </td>
+
+                                                                                </tr>
+
+                                                                                <tr class="odd">
+
+                                                                                    <td>
+                                                                                        <div class="webs-table-content webs-text"> <a href="https://sweetcandygroup5.webs.com/chinh-sach-bao-mat">Chính sách bảo mật</a><br> </div>
+                                                                                    </td>
+
+                                                                                </tr>
+
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <script>
+                                                        require(['jquery'], function($) {
+                                                            var deferredLoad = $.Deferred();
+                                                            webs.renderedModulesPromises.push(deferredLoad.promise());
+                                                            require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl) {
+                                                                mcl.create('table', {
+                                                                    data: {
+                                                                        "color_header": null,
+                                                                        "color_row": null,
+                                                                        "color_altrow": null,
+                                                                        "color_border": null,
+                                                                        "showHeader": true,
+                                                                        "showBorder": false,
+                                                                        "header": ["Quy định với khách hàng<br>"],
+                                                                        "widths": [100],
+                                                                        "rows": [
+                                                                            ["<a href=\"http://sweetcandygroup5.webs.com/quy-dinh-voi-khach-hang\" id=\"C6F5F0D4-49AB-4CF1-978B-1E0C832146BC\">Điều kiện sử dụng<\/a><br>"],
+                                                                            ["<a href=\"http://sweetcandygroup5.webs.com/giao-hang\">Chính sách giao hàng<\/a><br>"],
+                                                                            ["<a href=\"http://sweetcandygroup5.webs.com/doi-tra-hang\">Quy định đổi/trả hàng<\/a><br>"],
+                                                                            ["<a href=\"http://sweetcandygroup5.webs.com/chinh-sach-bao-mat\">Chính sách bảo mật<\/a><br>"]
+                                                                        ],
+                                                                        "linksData": {
+                                                                            "C6F5F0D4-49AB-4CF1-978B-1E0C832146BC": {
+                                                                                "tab": "mypages",
+                                                                                "url": "http://sweetcandygroup5.webs.com/quy-dinh-voi-khach-hang"
+                                                                            }
+                                                                        },
+                                                                        "_id": "51bc26200cf2035a0d1babea",
+                                                                        "_captchaPublicKey": "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
+                                                                        "_renderCaptcha": true,
+                                                                        "_site": {
+                                                                            "id": 111537045
+                                                                        }
+                                                                    },
+                                                                    container: $('#webs-bin-51bc26200cf2035a0d1babea > .webs-bin-wrap > .webs-container')
+                                                                }).done(function(m) {
+                                                                    m.oneLoaded();
+                                                                    deferredLoad.resolve();
+                                                                });
+                                                            });
+                                                        });
+                                                    </script>
+
+                                                    <div class="webs-bin" id="webs-bin-51c1ef9b0cf2976532fddf14">
+                                                        <div class="webs-bin-wrap">
+                                                            <div class="webs-container webs-module-title  w-title-default">
+                                                                <h3 class="webs-title webs-title-align-left ">
+
+                                                                    <div class="w-text w-font-times"><span style="color: rgb(255, 0, 4); font-size: 0.9em;"><span class="wz-bold" style="font-size: 19.43px;"><span class="wz-bold">Hỏi đáp trực tuyến:</span></span><br></span>
+                                                                    </div>
+                                                                </h3>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <script>
+                                                        require(['jquery'], function($) {
+                                                            var deferredLoad = $.Deferred();
+                                                            webs.renderedModulesPromises.push(deferredLoad.promise());
+                                                            require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl) {
+                                                                mcl.create('title', {
+                                                                    data: {
+                                                                        "align": "left",
+                                                                        "html": "<span style='font-size: 0.9em; color: rgb(255, 0, 4);'><span style='font-size: 19.4333px;' class='wz-bold'><span class='wz-bold'>Hỏi đ&aacute;p trực tuyến:<\/span><\/span><br><\/span>",
+                                                                        "level": null,
+                                                                        "icon": {
+                                                                            "enable": false,
+                                                                            "set": null,
+                                                                            "slug": null,
+                                                                            "position": null,
+                                                                            "style": null
+                                                                        },
+                                                                        "font": "times",
+                                                                        "linksData": {},
+                                                                        "_id": "51c1ef9b0cf2976532fddf14",
+                                                                        "_captchaPublicKey": "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
+                                                                        "_renderCaptcha": true,
+                                                                        "_site": {
+                                                                            "id": 111537045
+                                                                        }
+                                                                    },
+                                                                    container: $('#webs-bin-51c1ef9b0cf2976532fddf14 > .webs-bin-wrap > .webs-container')
+                                                                }).done(function(m) {
+                                                                    m.oneLoaded();
+                                                                    deferredLoad.resolve();
+                                                                });
+                                                            });
+                                                        });
+                                                    </script>
+
+                                                    <div class="webs-bin" id="webs-bin-51c1efe40cf2976532fddf2b">
+                                                        <div class="webs-bin-wrap">
+                                                            <div class="webs-container webs-module-html  w-html-base">
+                                                                <div class="w-custom-html">
+
+
+
+                                                                    <a href="ymsgr:sendim?lazycat1811"><img width="125" height="25" title="Hay chat Yahoo voi chung toi" src="http://opi.yahoo.com/online?u=lazycat1811&amp;m=g&amp;t=2" border="0"></a>
+                                                                    <a href="ymsgr:sendim?ddhung3007"><img width="125" height="25" title="Hay chat Yahoo voi chung toi" src="http://opi.yahoo.com/online?u=ddhung3007&amp;m=g&amp;t=2" border="0"></a>
+                                                                    <a href="Skype:hangpham1811?chat"><img width="120" height="30" title="Hay chat skype voi chung toi" alt="" src="https://mystatus.skype.com/bigclassic/hangpham1811"></a>
+                                                                    <script type="text/javascript">
+                                                                        (function() {
+                                                                            window['__CF$cv$params'] = {
+                                                                                r: '6fb82f0bec9e3d94',
+                                                                                m: 'a9xTV8V2ZndY4cnN8JGRW.BhUEmQXUt7xaihKRr7XT0-1649894663-0-AbvBoqqEjWoX+Di43Ssl99LYXW5KLqZ6zJ33oejHdh4hSDBqBAF/EcJU1QGDXjcAkM2Kk1p3OBZOE68GBuPNVm3xikhuitt2agScA2xcqYwXl+Lb/KyUxDJ/XKGV24p425ofRh3KR0Qb5roufRQzi8Y=',
+                                                                                s: [0xc08ac8c8f1, 0xd496bb0421],
+                                                                            }
+                                                                        })();
+                                                                    </script>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <script>
+                                                        require(['jquery'], function($) {
+                                                            var deferredLoad = $.Deferred();
+                                                            webs.renderedModulesPromises.push(deferredLoad.promise());
+                                                            require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl) {
+                                                                mcl.create('html', {
+                                                                    data: {
+                                                                        "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n<\/head>\n<body>\n<a href=\"ymsgr:sendim?lazycat1811\"><img border=\"0\" src=\"http://opi.yahoo.com/online?u=lazycat1811&m=g&t=2\" title=\"Hay chat Yahoo voi chung toi\" width=\"125\" height=\"25\"/><\/a>\n<a href=\"ymsgr:sendim?ddhung3007\"><img border=\"0\" src=\"http://opi.yahoo.com/online?u=ddhung3007&m=g&t=2\" title=\"Hay chat Yahoo voi chung toi\" width=\"125\" height=\"25\"/><\/a>\n<a href=\"Skype:hangpham1811?chat\"><img src=\"http://mystatus.skype.com/bigclassic/hangpham1811\" title=\"Hay chat skype voi chung toi\" width=\"120\" height=\"30\" alt=\"\"/><\/a>\n<\/body>\n<\/html>\n",
+                                                                        "_id": "51c1efe40cf2976532fddf2b",
+                                                                        "_captchaPublicKey": "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
+                                                                        "_renderCaptcha": true,
+                                                                        "_site": {
+                                                                            "id": 111537045
+                                                                        }
+                                                                    },
+                                                                    container: $('#webs-bin-51c1efe40cf2976532fddf2b > .webs-bin-wrap > .webs-container')
+                                                                }).done(function(m) {
+                                                                    m.oneLoaded();
+                                                                    deferredLoad.resolve();
+                                                                });
+                                                            });
+                                                        });
+                                                    </script>
+                                                </div>
+                                                <div class="webs-parent webs-parent-3 webs-col" style="width: 691px;">
+                                                    <div class="webs-bin" id="webs-bin-51bc266b0cf2035a0d1babf6">
+                                                        <div class="webs-bin-wrap">
+                                                            <div class="webs-container webs-module-title  w-title-default">
+                                                                <h3 class="webs-title webs-title-align-left ">
+
+                                                                    <div class="w-text ">Điều kiện sử dụng<br></div>
+                                                                </h3>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <script>
+                                                        require(['jquery'], function($) {
+                                                            var deferredLoad = $.Deferred();
+                                                            webs.renderedModulesPromises.push(deferredLoad.promise());
+                                                            require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl) {
+                                                                mcl.create('title', {
+                                                                    data: {
+                                                                        "align": "left",
+                                                                        "html": "Điều kiện sử dụng<br>",
+                                                                        "level": null,
+                                                                        "icon": {
+                                                                            "enable": false,
+                                                                            "set": null,
+                                                                            "slug": null,
+                                                                            "position": null,
+                                                                            "style": null
+                                                                        },
+                                                                        "linksData": {},
+                                                                        "_id": "51bc266b0cf2035a0d1babf6",
+                                                                        "_captchaPublicKey": "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
+                                                                        "_renderCaptcha": true,
+                                                                        "_site": {
+                                                                            "id": 111537045
+                                                                        }
+                                                                    },
+                                                                    container: $('#webs-bin-51bc266b0cf2035a0d1babf6 > .webs-bin-wrap > .webs-container')
+                                                                }).done(function(m) {
+                                                                    m.oneLoaded();
+                                                                    deferredLoad.resolve();
+                                                                });
+                                                            });
+                                                        });
+                                                    </script>
+
+                                                    <div class="webs-bin" id="webs-bin-51bc268a0cf2035a0d1babfa">
+                                                        <div class="webs-bin-wrap">
+                                                            <div class="webs-container webs-module-text ">
+                                                                <div class="webs-text ">
+                                                                    <p><span style="color: rgb(16, 16, 16);">Sweetcandygroup5.webs.com là website mua sắm trực tuyến chính thức của Công ty TNHH TM &amp; XNK SWEET CANDY. </span></p>
+                                                                    <p style="color: rgb(16, 16, 16);">- Các đơn hàng của khách hàng thực hiện tại website sweetcandygroup5.webs.com đều có thể được xem xét để chấp nhận hoặc từ chối bởi bộ phận phụ trách kinh doanh trực tuyến của Công ty
+                                                                        SWEET CANDY. </p>
+                                                                    <p><span style="color: rgb(16, 16, 16);">- Vì giá hàng hóa có thể thay đổi, đơn hàng của quý khách có thể không được chấp nhận hoặc chúng tôi có thể liên lạc với quý khách để thông tin thêm về sự thay đổi giá hoặc các vấn đề phát sinh sau khi quý khách thực hiện đặt hàng.</span></p>
+                                                                    <p style="color: rgb(255, 3, 15);">_______________________________________________________________________________________________<span class="wz-bold">Bản quyền/ thông tin thương hiệu</span><br></p>
+                                                                    <p><span style="color: rgb(8, 8, 8);">- Sweetcandygroup5.webs.com là thương hiệu website được đăng ký bản quyền bởi Công ty TNHH TM &amp; XNK SWEETCANDY</span></p>
+                                                                    <p style="color: rgb(8, 8, 8);">. Toàn bộ website, thông tin sao chép, hình ảnh, biểu tượng, ký hiệu, văn bản, nội dung và cách thức trưng bày sản phẩm đã được đăng ký bản quyền cho sweetcandygroup5.webs.com. Việc sử
+                                                                        dụng các tài liệu và hình ảnh từ website và/hoặc máy chủ của sweetcandygroup5.webs.com bị ngăn cấm.</p>
+                                                                    <p style="color: rgb(8, 8, 8);">- Thương hiệu sweetcandygroup5.webs.com hoặc bất cứ thương hiệu hay logo của SWEET CANDY không được sử dụng cho mục đích quảng cáo hoặc công bố thông tin mà không có sự cho phép của chúng
+                                                                        tôi.
+                                                                    </p>
+                                                                    <p><span style="color: rgb(8, 8, 8);">- Thông tin trên website này có thể thay đổi mà không cần thông báo.</span></p>
+                                                                    <p>_______________________________________________________________________________________________</p>
+                                                                    <p style="color: rgb(255, 3, 15);"><span class="wz-bold">Chính sách đơn hàng của khách hàng</span><br></p>
+                                                                    <p><span style="color: rgb(14, 14, 14);">- Không phải bất cứ đơn đặt hàng trực tuyến nào của quý khách cũng hiển nhiên được chấp nhận. Chúng tôi có toàn quyền chấp nhận hoặc từ chối đơn hàng của quý khách với bất kỳ lý do không hợp lệ nào đó của đơn hàng mà chúng tôi xác định được.</span></p>
+                                                                    <p style="color: rgb(14, 14, 14);">- Chúng tôi có thể yêu cầu xác minh và đề nghị quý khách cung cấp thêm thông tin trước khi chấp nhận đơn hàng của quý khách.</p>
+                                                                    <p><span style="color: rgb(14, 14, 14);">- Một số chương trình khuyến mãi đặc biệt tại sweetcandygroup5.webs.com chỉ dành cho người tiêu dùng cuối (bán lẻ) và không chấp nhận các đơn đặt hàng từ đại lý, công ty xuất khẩu, các đơn vị bán buôn, hoặc những tổ chức kinh doanh mua đi, bán lại các sản phẩm được cung cấp bởi sweetcandygroup5.webs.com.</span></p>
+                                                                    <p style="color: rgb(255, 3, 15);">_______________________________________________________________________________________________<span class="wz-bold">Thông tin hiển thị bị lỗi do nhập liệu</span><br></p>
+                                                                    <p style="color: rgb(12, 12, 12);">- Trong trường hợp một sản phẩm hiển thị sai giá hoặc sai thông tin do lỗi nhập liệu hoặc do sự sai sót của nhà cung cấp, sweetcandygroup5.webs.com có quyền từ chối hoặc hủy các đơn hàng
+                                                                        đối với các sản phẩm bị hiển thị sai thông tin giá bán. sweetcandygroup5.webs.com có quyền từ chối hoặc hủy các đơn hàng cho dù đơn hàng đã được xác nhận và quý khách đã thực hiện
+                                                                        thanh toán hay chưa. Trong trường hợp quý khách đã thanh toán cho việc mua hàng và đơn hàng của quý khách bị hủy, chúng tôi sẽ nhanh chóng hoàn trả lại toàn bộ số tiền mua hàng vào
+                                                                        lại tài khoản của quý khách.</p>
+                                                                    <p style="color: rgb(255, 3, 15);">_______________________________________________________________________________________________<span class="wz-bold">Đóng gói</span><br></p>
+                                                                    <p style="color: rgb(14, 14, 14);">- Hàng hóa sẽ được đóng gói cẩn thận khi chuyển đến khách hàng. Các kiện hàng của quý khách có thể được đóng gói trong các bao bì/thùng hàng lớn hơn để đảm bảo tính an toàn cho hàng hóa.</p>
+                                                                    <p>_______________________________________________________________________________________________<span class="wz-bold" style="color: rgb(255, 3, 15);">Thời gian xử lý đơn hàng</span><br></p>
+                                                                    <p><span style="color: rgb(16, 16, 16);">- Đơn hàng của bạn sẽ được kiểm tra bởi bộ phận Bán hàng của sweetcandygroup5.webs.com để đảm bảo rằng đơn đặt hàng của quý khách là chính xác, phương thức thanh toán tiền đơn hàng là hợp lệ và quý khách có quyền sử dụng phương thức thanh toán này. Một khi đơn hàng của quý khách đã được bộ phận Bán hàng của chúng tôi chấp nhận, đơn hàng sẽ được chuyển đến Kế toán và Kho hàng để thực hiện việc chuyển hàng đến quý khách.</span></p>
+                                                                    <p style="color: rgb(16, 16, 16);">- Xin lưu ý với trường hợp thanh toán bằng thẻ tín dụng, việc xử lý thẻ tín dụng có thể kéo dài đến hai (02) ngày làm việc (Tùy thuộc vào tính chính xác thông tin khách hàng cung cấp
+                                                                        cho chúng tôi). Hơn thế nữa, vì lý do an toàn, chúng tôi có thể sẽ gọi điện xác nhận với quý khách trước khi chúng tôi xử lý thẻ tín dụng của quý khách cho việc thanh toán đơn hàng.</p>
+                                                                    <p style="color: rgb(16, 16, 16);">- Nếu hàng hóa quý khách đặt mua đang sẵn có, chúng tôi sẽ nhanh chóng chuyển hàng từ một hoặc các từ kho hàng của chúng tôi trên toàn quốc đến cho quý khách.</p>
+                                                                    <p style="color: rgb(16, 16, 16);">- Nếu hàng hóa quý khách đặt mua đang hết hàng, chúng tôi sẽ liên hệ lại quý khách để thông tin thêm về đơn hàng/sản phẩm cũng như thời gian sớm nhất có thể đáp ứng đơn hàng của quý khách.</p>
+                                                                    <p style="color: rgb(16, 16, 16);">- Trong các ngày lễ, tết, sự kiện khuyến mãi lớn của chúng tôi, do lượng đơn hàng lớn, đơn hàng của quý khách có thể được xử lý chậm hơn thời gian quy định.</p>
+                                                                    <p style="color: rgb(16, 16, 16);">Thanh toán bằng thẻ tín dụng/ thẻ ghi nợ</p>
+                                                                    <p><span style="color: rgb(16, 16, 16);">- Khi đơn hàng của quý khách được CHẤP NHẬN, lệnh thanh toán tiền cho toàn bộ đơn hàng sẽ được chuyển đến ngân hàng quản lý thẻ tín dụng của quý khách. Ngân hàng của quý khách sẽ phát lệnh thanh toán. Một lệnh thanh toán là một lần duy nhất một chuyển khoản được hoàn thành.</span></p>_______________________________________________________________________________________________
+                                                                    <p style="color: rgb(255, 3, 15);"><span class="wz-bold">Nguy cơ mất và hư hại hàng hóa</span></p>
+                                                                    <p><span style="color: rgb(14, 13, 13);">- Nếu khách hàng sử dụng dịch vụ chuyển hàng của SWEET CANDY hoặc của đối tác vận chuyển cung cấp bởi chúng tôi, chúng tôi sẽ có trách nhiệm với hàng hóa và sự rủi ro của việc mất hoặc hư hại hàng hóa trong suốt quá trình chuyển hàng đến khách hàng.</span></p>
+                                                                    <p><span style="color: rgb(14, 13, 13);">- Nếu khách hàng lựa chọn một công ty/hình thức vận chuyển hàng hóa khác cho riêng mình, trách nhiệm với hàng hóa và sự rủi ro của việc mất hoặc hư hại hàng hóa trong quá trình chuyển hàng từ sweetcandygroup5.webs.com đến khách hàng thuộc về khách hàng. Khách hàng sẽ chịu trách nhiệm cho toàn bộ việc chuyển hàng và cước phí liên quan.</span></p>
+                                                                    <p>_______________________________________________________________________________________________<br></p>
+                                                                    <p style="color: rgb(255, 3, 15);"><span class="wz-bold">Trách nhiệm với hàng hóa nhận được</span></p>
+                                                                    <p><span style="color: rgb(23, 22, 22);">- Quý khách có trách nhiệm kiểm tra hàng hóa khi nhận hàng. Thông báo ngay cho Nhân viên giao nhận những hư hại, trầy xước, bể vỡ, mốp méo, hoặc sai hàng hóa và tiến hành ký xác nhận tình trạng hàng hóa với Nhân viên giao nhận.</span></p>
+                                                                    <p><span style="color: rgb(23, 22, 22);">- Sau khi quý khách đã ký nhận hàng, chúng tôi không có trách nhiệm với những thông báo hư hỏng, trầy xước, bể vỡ, mốp méo, sai hàng hóa,… từ quý khách.</span></p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

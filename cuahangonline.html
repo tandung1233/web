@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html class=" js canvas rgba borderradius boxshadow textshadow opacity cssanimations cssgradients csstransitions gecko win js">
+
+<head>
+    <title></title>
+    <style>
+        body {
+            background-color: #fff7c9;
+        }
+        
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        caption,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        
+        #header .w-header-area {
+            height: 130px;
+            z-index: 1;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        #webs-header .webs-container,
+        .webs-content-header .webs-container {
+            padding: 0;
+        }
+        
+        .webs-bin {
+            position: relative;
+        }
+        
+        .webs-parent-0::after,
+        .webs-parent-0>.webs-parent::after,
+        .webs-row::after,
+        .webs-col>.webs-bin::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        #header .title-wrap {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .clearfix::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        #header {
+            position: relative;
+            height: 100px;
+        }
+        
+        #wrapper {
+            color: #666666;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        #wrapper {
+            width: 980px;
+            margin: 0px auto;
+        }
+        
+        #bottom {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/bg_footer.png");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        
+        #water_sand {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/footer_tile.jpg");
+            background-repeat: repeat-x;
+            background-position: center bottom;
+        }
+        
+        #centre {
+            position: relative;
+            margin: 0px;
+            background: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/bg_pattern.jpg") no-repeat top center;
+        }
+        
+        #background {
+            margin: 0px;
+            background: #e4f9ff url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/page_bg.jpg") repeat-x top;
+        }
+        
+        body,
+        .webs-text,
+        .w-header-text,
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #666666;
+            font-weight: normal;
+            font-family: "Arial", sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        body {
+            padding-bottom: 70px;
+        }
+        
+        html {
+            height: auto !important;
+        }
+        
+        .w-header-layer {
+            position: absolute;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .logo {
+            top: 26px;
+            width: 246px;
+            left: 65px;
+            height: 78px;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .title {
+            top: 44px;
+            z-index: 20;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-left.title,
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-center.title {
+            left: 352px;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .subtitle {
+            top: 27px;
+            z-index: 21;
+            display: block;
+        }
+        
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-left.subtitle,
+        #webs-bin-51ac04700cf290cd858746df .w-header-layer-align-center.subtitle {
+            left: 672px;
+        }
+        
+        .w-header-text {
+            white-space: nowrap;
+            width: auto;
+        }
+        
+        .w-header-text-container .w-header-subtitle {
+            font-family: "Patrick Hand", cursive;
+        }
+        
+        .w-header-text-container .w-header-title {
+            font-family: "Walter Turncoat", cursive;
+        }
+        
+        .w-header-layer-align-left .w-header-text {
+            text-align: left;
+        }
+        
+        #header .w-header-subtitle {
+            font-size: 20px;
+            color: #2486c6;
+        }
+        
+        #header .w-header-title {
+            font-size: 51px;
+            line-height: 58px;
+            font-weight: bold;
+            color: #ee2375;
+        }
+        
+        .w-header-layer-image .w-header-image {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #menu li {
+            color: #f1f1f1;
+            vertical-align: baseline;
+            white-space: nowrap;
+        }
+        
+        #menu ul {
+            background: #f7f7f7;
+        }
+        
+        a {
+            padding: 10px;
+            color: #00b2d9;
+        }
+        
+        body {
+            background-color: #fff7c9;
+        }
+        
+        .fw-button,
+        .fw-button:link,
+        .fw-button:active,
+        .fw-button:visited {
+            white-space: nowrap;
+            color: #fff;
+            font-weight: 700 !important;
+            display: -moz-inline-box;
+            display: inline-block;
+            width: auto;
+            font-family: helvetica, arial;
+            margin: 0 0 0 2px;
+            text-decoration: none;
+            background-color: #000;
+            border: 2px solid #424242;
+            cursor: pointer;
+            -ms-filter: alpha(opacity=55);
+            filter: alpha(opacity=55);
+            zoom: 1;
+            opacity: 0.55;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+        }
+        
+        .fw-button-small,
+        .fw-button-small:link,
+        .fw-button-small:active,
+        .fw-button-small:visited {
+            font-size: 11px;
+            line-height: 16px;
+            padding: 1px 9px 0;
+        }
+        
+        .clearfix {
+            zoom: 1;
+        }
+        
+        .clearfix::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: table;
+        }
+        
+        .clearfix::after {
+            clear: both;
+        }
+        
+        .clearfix::after {
+            display: table;
+            content: " ";
+            clear: both;
+        }
+        
+        #container {
+            background-color: #ffffff;
+            min-height: 542px;
+            padding: 17px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+        
+        #wrapper {
+            color: #666666;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        #wrapper {
+            width: 980px;
+            margin: 0px auto;
+        }
+        
+        #bottom {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/bg_footer.png");
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+        
+        #water_sand {
+            background-image: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/water/footer_tile.jpg");
+            background-repeat: repeat-x;
+            background-position: center bottom;
+        }
+        
+        #centre {
+            position: relative;
+            margin: 0px;
+            background: url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/bg_pattern.jpg") no-repeat top center;
+        }
+        
+        #background {
+            margin: 0px;
+            background: #e4f9ff url("https://dynamic.websimages.com/s/themes/playtime/v1.61/images/page_bg.jpg") repeat-x top;
+        }
+        
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #666666;
+        }
+        
+        body,
+        .webs-text,
+        .w-header-text,
+        input[type=text],
+        input[type=email],
+        input[type=password],
+        textarea {
+            color: #666666;
+            font-weight: normal;
+            font-family: "Arial", sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        body {
+            padding-bottom: 70px;
+        }
+        
+        html {
+            height: auto !important;
+        }
+        
+        html,
+        body,
+        .formwrap,
+        .contentblock {
+            height: 100%;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        .webs-bin {
+            position: relative;
+        }
+        
+        .webs-parent-0::after,
+        .webs-parent-0>.webs-parent::after,
+        .webs-row::after,
+        .webs-col>.webs-bin::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container {
+            padding: 10px;
+        }
+        
+        .webs-container {
+            padding: 0 10px;
+        }
+        
+        .webs-container::after {
+            visibility: hidden;
+            display: block;
+            font-size: 0px;
+            content: " ";
+            clear: both;
+            height: 0px;
+        }
+        
+        .webs-text {
+            min-height: 21px;
+        }
+        
+        .webs-text {
+            word-wrap: break-word;
+        }
+        
+        table {
+            font: inherit;
+            vertical-align: baseline;
+            font-size: 100%;
+        }
+        
+        .webs-body table {
+            border-spacing: 2px;
+            border-collapse: separate;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        .webs-content .fw-even {
+            border-color: #ff9999;
+        }
+        
+        table#searchDisplay {
+            width: 100%;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-top-style: solid;
+            border-bottom-style: solid;
+            background-color: transparent;
+            margin: 10px 0 10px 0;
+        }
+        
+        #productCategories {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-left-style: none;
+            border-right-style: none;
+            text-align: center;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+            width: 100%;
+            padding: 12px;
+            line-height: 1.6em;
+        }
+        
+        .product-list-container {
+            position: relative;
+        }
+        
+        .product-list-container .product-list {
+            list-style-type: none !important;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .product-list-container .product-list .row {
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .product-list-container .product-list .product {
+            float: left;
+            width: 25%;
+            margin: 20px 0 10px;
+        }
+        
+        .product-list-container .product-list .products-per-row-4 {
+            width: 25%;
+        }
+        
+        .product-list-container .product-list .product .product-image-container {
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            position: relative;
+            width: 90%;
+        }
+        
+        .product-list-container .product-list .product .product-image-container::before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+        
+        .product-list-container .product-list .product .product-name {
+            color: inherit;
+            text-align: center;
+            margin: 10px 10px 0 10px;
+            font-size: 1.1em;
+        }
+        
+        .product-list-container .product-list .product div.product-price {
+            text-align: center;
+        }
+        
+        .webs-content .theme-color-text {
+            color: #ff0000;
+        }
+        
+        .product-list-container .product-list .product .product-image-container .product-image-anchor {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            display: block;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-decoration: none;
+            border-bottom: 0px;
+        }
+        
+        .product-list-container .product-list .product .product-image-container .banner-list {
+            position: absolute;
+            top: 0px;
+            background: #DE4647;
+            color: white;
+            padding: 5px 15px;
+            line-height: 21px;
+            text-align: right;
+            right: 0px;
+        }
+        
+        a img {
+            border: 0;
+        }
+        
+        .product-image {
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .full {
+            object-fit: contain;
+        }
+        
+        .webs-body tbody,
+        .webs-body thead,
+        .webs-body tfoot,
+        .webs-body table>tr {
+            vertical-align: middle;
+        }
+        
+        .webs-body tr {
+            vertical-align: inherit;
+        }
+        
+        .webs-body td {
+            vertical-align: inherit;
+            padding: 1px;
+        }
+        
+        span.productCategory {
+            padding: 0 24px 0 0;
+            font-weight: bold;
+        }
+        
+        table#searchDisplay td {
+            padding: 3px 1px 2px 1px;
+        }
+        
+        select#sortView {
+            font: normal 11px Arial, Verdana;
+        }
+        
+        .fw-searchContainer {
+            border: 2px solid #424242;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            width: 237px;
+            padding: 0;
+            opacity: 0.7;
+            filter: alpha(opacity=70);
+            background: #2d2d2d url(Images/searchbg.png) no-repeat right center;
+            line-height: 1em !important;
+        }
+        
+        .webs-content .fw-searchContainer {
+            width: 225px;
+            position: relative;
+            border: 0;
+            background: none;
+            padding: 4px 0;
+            zoom: 1;
+        }
+        
+        .webs-content .fw-searchContainer::before,
+        .webs-content .fw-searchContainer::after {
+            content: "";
+            display: table;
+        }
+        
+        .webs-content .fw-searchContainer::after {
+            clear: both;
+        }
+        
+        .fw-searchbox {
+            border: 1px solid #fff;
+            -moz-border-radius: 2px 0 0 2px;
+            -webkit-border-radius: 2px 0 0 2px;
+            border: 0;
+            margin: 0 !important;
+            padding: 3px 0 1px 5px;
+            color: #666;
+            width: 205px;
+        }
+        
+        .webs-content .fw-searchContainer .fw-searchbox {
+            width: 100%;
+            float: left;
+        }
+        
+        .fw-searchSubmit {
+            width: 25px;
+            border: 0;
+            cursor: pointer;
+            background-color: transparent;
+            padding: 0;
+            margin: 0 0 0 -3px !important;
+            text-indent: -9000px;
+            letter-spacing: 100px;
+        }
+        
+        .webs-content .fw-searchContainer .fw-searchSubmit {
+            position: absolute;
+            right: -4px;
+            top: 50%;
+            margin-top: -12px !important;
+            z-index: 1;
+            border: none;
+            background-image: url('https://static.websimages.com/static/projects/finch/themes/app_search_ie.png');
+            background-image: url('data:image/svg+xml;charset=iso-8859-1, %3Csvg%20version%3D%221.1%22%20xmlns%3D%22https%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22https%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%20enable-background%3D%22new%200%200%2016%2016%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%23ff0000%22%20stroke-width%3D%222%22%20cx%3D%226.099%22%20cy%3D%226.1%22%20r%3D%224.999%22/%3E%3Cline%20fill%3D%22none%22%20stroke%3D%22%23ff0000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20x1%3D%229.828%22%20y1%3D%229.828%22%20x2%3D%2214.9%22%20y2%3D%2214.9%22/%3E%3C/g%3E%3C/svg%3E');
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            width: 24px;
+            height: 24px;
+            text-indent: -9999px;
+            cursor: pointer;
+        }
+        
+        .webs-title {
+            color: #008eb0;
+            font-weight: normal;
+            font-family: "Patrick Hand", cursive;
+            font-size: 24px;
+            line-height: 26px;
+        }
+        
+        .webs-title {
+            line-height: normal;
+        }
+        
+        .webs-body h3 {
+            font-size: 1.17em;
+            font-weight: 700;
+            margin: 1em 0;
+        }
+        
+        .webs-title.webs-title-align-left {
+            text-align: left;
+        }
+        
+        .webs-title .w-text {
+            display: block;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+        
+        .pageTitle {
+            margin: 0;
+            position: relative;
+        }
+        
+        .webs-content .webs-title .pageTitle {
+            margin-bottom: 10px !important;
+            margin-right: 10px;
+        }
+        
+        #cartHeader {
+            text-align: right;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+        
+        .webs-content .fw-button {
+            background: #ff0000 !important;
+            border: 1px solid #b80000 !important;
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+            padding: .5em .9em !important;
+            box-shadow: inset 0px -2px 1px rgba(0, 0, 0, 0.2), inset 0px 2px 1px rgba(255, 255, 255, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.4);
+            color: #fff !important;
+            opacity: 1 !important;
+            filter: none !important;
+        }
+        
+        .webs-title a {
+            color: #96c5d3;
+        }
+        
+        .fw-button span {
+            display: block;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body class="with-fixed-freebar">
+    <div id="background">
+        <div id="centre">
+            <div id="water_sand">
+                <div id="bottom">
+                    <div id="wrapper">
+                        <header class="clearfix" id="header">
+                            <div class="title-wrap">
+                                <section class="webs-content-header webs-content" id="51ac04700cf290cd858746de" data-webs-locked="true" data-webs-module="header_editor" data-role="webs-header">
+                                    <div class="webs-parent webs-parent-0">
+                                        <div class="webs-parent webs-parent-1 webs-col">
+                                            <div class="webs-bin" id="webs-bin-51ac04700cf290cd858746df">
+                                                <div class="webs-bin-wrap">
+                                                    <div class="webs-container webs-module-header_editor  w-header_editor-default">
+                                                        <div class="w-header-area ">
+                                                            <div class="w-header-layer w-header-layer-image w-header-layer-logo logo">
+                                                                <div class="w-header-layer-container">
+                                                                    <img class="w-header-image w-header-logo" src="https://sweetcandygroup5.webs.com/logo.png">
+                                                                </div>
+                                                            </div>
+                                                            <div class="title w-header-layer w-header-layer-text w-header-layer-align-left ">
+                                                                <div class="w-header-layer-container">
+                                                                    <h1 class="w-header-text-container">
+                                                                        <div class="w-header-text w-header-title ">
+                                                                            Sweet Candy
+                                                                        </div>
+                                                                    </h1>
+                                                                </div>
+                                                            </div>
+                                                            <div class="subtitle w-header-layer w-header-layer-text w-header-layer-align-left ">
+                                                                <div class="w-header-layer-container">
+                                                                    <h2 class="w-header-text-container">
+                                                                        <div class="w-header-text w-header-subtitle " data-placeholder="Subtitle">
+                                                                            Giảm giá 10% đồ thời trang trẻ em
+                                                                        </div>
+                                                                    </h2>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </header>
+                        <div id="menu" class="">
+                            <ul>
+                                <a href="http://webcoban.vn/css/default.html">Chuyển đến trang học CSS</a>
+                                <li><a href="FB.COm">Trang chủ</a></li>
+                                <li><a href="/webbaitap/cuahangonline.html">Cửa hàng online</a></li>
+                                <li><a href="/webbaitap/quydinhmuahang.html">Quy định với khách hàng</a></li>
+                                <li><a href="#">Diễn đàn</a></li>
+                                <li><a href="#">Giới thiệu công ty</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="background">
+        <div id="centre">
+            <div id="water_sand">
+                <div id="bottom">
+                    <div id="wrapper">
+                        <div class="main main-sidebar-none clearfix" id="container">
+                            <!-- main body -->
+                            <div id="body-wrapper">
+                                <section class="webs-content webs-body" id="body_tree" data-role="webs-body">
+                                    <!-- Begin Tree -->
+                                    <div class="webs-parent webs-parent-0">
+                                        <div class="webs-parent webs-parent-1 webs-col">
+                                            <div class="webs-bin" id="webs-bin-null">
+                                                <div class="webs-bin-wrap">
+                                                    <div class="webs-container webs-module-title  w-title-default">
+                                                        <h3 class="webs-title webs-title-align-left ">
+                                                            <div class="w-text ">
+                                                                <span class="pageTitle" style="float: left;">
+                                                   Cua hang online
+                                                   </span>
+                                                                <script src="https://webstore.websapp.digital.vistaprint.io/webstore/javascripts/product.js?1623783522" type="text/javascript"></script>
+                                                                <div id="cartHeader" style="font-size: 12px;">
+                                                                    <span>
+                                                            My Cart: 0 
+                                                            <fw:intl>items</fw:intl>
+                                                         </span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="clear clear_head"></div>
+                                                            </div>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="webs-bin" id="webs-bin-null">
+                                                <div class="webs-bin-wrap">
+                                                    <div class="webs-container webs-module-text ">
+                                                        <div class="webs-text ">
+                                                            <div class="fw-even">
+                                                            </div>
+                                                            <table class="fw-even" id="searchDisplay" border="0" cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <form action="https://sweetcandygroup5.webs.com/apps/webstore/search" method="get" accept-charset="UTF-8">
+                                                                                <div style="margin: 0px; padding: 0px; display: inline;"><input name="utf8" type="hidden" value="✓"></div>
+                                                                                <input name="sort" id="sort" type="hidden">
+                                                                                <div class="fw-searchContainer">
+                                                                                    <input name="query" class="fw-searchbox " id="query" type="text" maxlength="2147483647" placeholder="Search..." value="">
+                                                                                    <input class="fw-searchSubmit" type="submit" value="Search">
+                                                                                </div>
+                                                                            </form>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div style="font-size: 11px; margin-bottom: 5px; float: right;">
+                                                                                Sort:
+                                                                                <form id="frmSort" style="display: inline;" action="https://sweetcandygroup5.webs.com/apps/webstore/products" method="get" accept-charset="UTF-8">
+                                                                                    <div style="margin: 0px; padding: 0px; display: inline;"><input name="utf8" type="hidden" value="✓"></div>
+                                                                                    <input name="query" id="query" type="hidden">
+                                                                                    <select name="sort" id="sortView" onchange="this.form.submit();">
+                                                                     <option value="">None</option>
+                                                                     <option value="newest">Newest First</option>
+                                                                     <option value="sale">Sale Items First</option>
+                                                                     <option value="pricelh">Price: low to high</option>
+                                                                     <option value="pricehl">Price: high to low</option>
+                                                                     <option value="alpha">Alphabetical</option>
+                                                                  </select>
+                                                                                </form>
+                                                                            </div>
+                                                                            <br class="clear">
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <table class="fw-even" id="productCategories" cellspacing="0" cellpadding="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span class="productCategory">All</span>
+                                                                            <span class="productCategory" style="font-weight: bold;">
+                                                            <a href="https://sweetcandygroup5.webs.com/apps/webstore/products/category/968949?page=1">Do dung so sinh cho be</a>
+                                                            </span>
+                                                                            <span class="productCategory" style="font-weight: bold;">
+                                                            <a href="https://sweetcandygroup5.webs.com/apps/webstore/products/category/972028?page=1">Thuc pham dinh duong</a>
+                                                            </span>
+                                                                            <span class="productCategory" style="font-weight: bold;">
+                                                            <a href="https://sweetcandygroup5.webs.com/apps/webstore/products/category/972029?page=1">Do dung cho be ngu</a>
+                                                            </span>
+                                                                            <span class="productCategory" style="font-weight: bold;">
+                                                            <a href="https://sweetcandygroup5.webs.com/apps/webstore/products/category/972031?page=1">Do dung cho be khi ra ngoai</a>
+                                                            </span>
+                                                                            <span class="productCategory" style="font-weight: bold;">
+                                                            <a href="https://sweetcandygroup5.webs.com/apps/webstore/products/category/972033?page=1">Thoi trang cho be yeu</a>
+                                                            </span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <!--Product List-->
+                                                            <div class="product-list-container">
+                                                                <div class="product-list">
+                                                                    <div class="row">
+                                                                        <div class="product products-per-row-4">
+                                                                            <div class="product-image-container">
+                                                                                <a class="product-image-anchor" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3938743" data-use-imageprocessor="1">
+                                                                                    <img class="product-image full" src="https://mediaprocessor.websimages.com//https://sweetcandygroup5.webs.com/webstore/bim-merries-l541_2.jpg">
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="product-name">
+                                                                                <a class="product-name" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3938743">Ta quan</a><br>
+                                                                            </div>
+                                                                            <div class="product-price">
+                                                                                <span class="product-price theme-color-text">$21.00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="product products-per-row-4">
+                                                                            <div class="product-image-container">
+                                                                                <a class="product-image-anchor" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951276" data-use-imageprocessor="1">
+                                                                                    <img class="product-image full" src="https://mediaprocessor.websimages.com//https://sweetcandygroup5.webs.com/120_2532_20111118151713-3_27.jpg">
+                                                                                </a>
+                                                                                <div class="banner-list">
+                                                                                    NEW
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="product-name">
+                                                                                <a class="product-name" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951276">Sua Pediasure nuoc</a><br>
+                                                                            </div>
+                                                                            <div class="product-price">
+                                                                                <span class="product-price theme-color-text">$2.50</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="product products-per-row-4">
+                                                                            <div class="product-image-container">
+                                                                                <a class="product-image-anchor" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951302" data-use-imageprocessor="1">
+                                                                                    <img class="product-image full" src="https://mediaprocessor.websimages.com//https://sweetcandygroup5.webs.com/DoDungChoBeNgu_001.jpg">
+                                                                                </a>
+                                                                                <div class="banner-list">
+                                                                                    FREE SHIPPING
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="product-name">
+                                                                                <a class="product-name" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951302">Noi go da nang 2 tang</a><br>
+                                                                            </div>
+                                                                            <div class="product-price">
+                                                                                <span class="product-price theme-color-text">$172.00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="product products-per-row-4">
+                                                                            <div class="product-image-container">
+                                                                                <a class="product-image-anchor" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951306" data-use-imageprocessor="1">
+                                                                                    <img class="product-image full" src="https://mediaprocessor.websimages.com//https://sweetcandygroup5.webs.com/DoDungRaNgoai_001.jpg">
+                                                                                </a>
+                                                                                <div class="banner-list">
+                                                                                    COMING SOON
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="product-name">
+                                                                                <a class="product-name" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951306">Xe tap di</a><br>
+                                                                            </div>
+                                                                            <div class="product-price">
+                                                                                <span class="product-price theme-color-text">$25.00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="product products-per-row-4">
+                                                                            <div class="product-image-container">
+                                                                                <a class="product-image-anchor" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951311" data-use-imageprocessor="1">
+                                                                                    <img class="product-image full" src="https://mediaprocessor.websimages.com//https://sweetcandygroup5.webs.com/ThoiTrangChoBe001.jpg">
+                                                                                </a>
+                                                                                <div class="banner-list">
+                                                                                    SALE
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="product-name">
+                                                                                <a class="product-name" href="https://sweetcandygroup5.webs.com/apps/webstore/products/show/3951311">Bo quan ao Childhood</a><br>
+                                                                            </div>
+                                                                            <div class="product-price">
+                                                                                <span class="product-price theme-color-text">$7.00</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
